@@ -118,3 +118,52 @@ img {
   border-radius: 9px;
   width: 399px;
 }
+
+.about {
+  margin-bottom: 112px;
+}
+
+.about__wrapper {
+  display: flex;
+  align-items: center;
+
+}
+
+.about__img {
+  background-image: url(../img/about-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-right: 75px;
+  flex-basis: 560px;
+}
+
+.about__img img {
+  margin: 0 auto;
+  display: block;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 560px;
+
+}
+
+.about__title {
+  font-size: 48px;
+  line-height: 35px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+.about__title span {
+  color: #D96E9B;
+}
+
+.about__text {
+  font-size: 29px;
+  text-align: center;
+}
