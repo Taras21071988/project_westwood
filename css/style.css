@@ -7,7 +7,9 @@
 html {
   box-sizing: border-box;
 }
-
+body{
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -28,4 +30,47 @@ img {
   max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto;
+}
+.header {
+  background-image: url(../img/header-img.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__wrapper {
+  color: #FFFFFF;
+}
+.header__top {
+  padding-top: 44px;
+}
+.header__list {
+  display: flex;
+  justify-content: space-around;
+}
+.header__list-item {
+}
+
+.list-link {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+}
+.header__inner {
+  display: flex;
+}
+.header__text {
+}
+.header__title {
+  font-size: 134px;
+  font-weight: 400;
+}
+.header__subtitle {
+  font-size: 75px;
+  line-height: 92px;
+}
+.header__button-link {
+}
+.header__img {
 }
