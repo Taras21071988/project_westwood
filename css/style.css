@@ -168,12 +168,49 @@ img {
   font-size: 29px;
   text-align: center;
 }
-.advantage__wrapper {}
 
-.advantage__content {}
+.advantage {
+  margin-bottom: 101px;
+}
 
-.advantage-img {}
+.advantage-title {
+  margin-bottom: 55px;
+}
 
-.advantage__title {}
+.advantage-title span {
+  color: #D96E9B;
+}
 
-.advantage__text {}
+.advantage__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.advantage__content {
+  text-align: center;
+  background-color: #FFEEF5;
+  padding: 30px;
+}
+
+.advantage__content-bg {
+  text-align: center;
+  background-color: #E5EAFF;
+  padding: 30px;
+}
+
+.advantage-img {
+  margin-bottom: 20px;
+}
+
+.advantage__content-title {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.advantage__content-text {
+  font-size: 19px;
+  text-align: center;
+  line-height: 23px;
+}
