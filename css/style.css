@@ -40,7 +40,9 @@ img {
   line-height: 35px;
   font-weight: 700;
 }
-
+.title span{
+  color: #D96E9B;
+}
 .header {
   background-image: url(../img/header-img.jpg);
   height: 100vh;
@@ -160,10 +162,6 @@ img {
   margin-bottom: 55px;
 }
 
-.about__title span {
-  color: #D96E9B;
-}
-
 .about__text {
   font-size: 29px;
   text-align: center;
@@ -214,3 +212,24 @@ img {
   text-align: center;
   line-height: 23px;
 }
+.reviews {}
+
+.reviews-title {}
+
+.reviews__wrapper {}
+
+.reviews__content {}
+
+.reviews__content-title {}
+
+.content__title-text {}
+
+.reviews__content-text {}
+
+.reviews__author {}
+
+.reviews__author-img {}
+
+.reviews__author-name {}
+
+.reviews__author-star {}
