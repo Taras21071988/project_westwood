@@ -40,9 +40,11 @@ img {
   line-height: 35px;
   font-weight: 700;
 }
-.title span{
+
+.title span {
   color: #D96E9B;
 }
+
 .header {
   background-image: url(../img/header-img.jpg);
   height: 100vh;
@@ -212,24 +214,58 @@ img {
   text-align: center;
   line-height: 23px;
 }
-.reviews {}
 
-.reviews-title {}
+.reviews {
+  margin-bottom: 100px;
+}
 
-.reviews__wrapper {}
+.reviews-title {
+  margin-bottom: 36px;
+}
 
-.reviews__content {}
+.reviews__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 83px 138px;
 
-.reviews__content-title {}
+}
 
-.content__title-text {}
+.reviews__content {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(118.82deg, #E5EAFF 9.63%, #F9DAE2 91.47%);
+  padding: 30px 50px 20px;
+}
 
-.reviews__content-text {}
+.reviews__content-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
 
-.reviews__author {}
+.content__title-text {
+  font-size: 24px;
+  font-weight: 700;
+}
 
-.reviews__author-img {}
+.reviews__content-text {
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
 
-.reviews__author-name {}
+.reviews__author {
+  display: flex;
+  align-items: flex-end;
+  gap: 0 20px;
+}
 
-.reviews__author-star {}
+.reviews__author-name {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.reviews__author-star {
+margin-top: 5px;
+}
