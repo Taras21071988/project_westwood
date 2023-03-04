@@ -44,7 +44,10 @@ img {
 .title span {
   color: #D96E9B;
 }
-
+.swiper {
+  width: 100%;
+  min-height: 520px;
+}
 .header {
   background-image: url(../img/header-img.jpg);
   height: 100vh;
@@ -268,4 +271,22 @@ img {
 
 .reviews__author-star {
 margin-top: 5px;
+}
+.products{
+  margin-bottom: 34px;
+  padding-top: 52px;
+  background: linear-gradient(115.26deg, rgba(231, 175, 199, 0.33) 2.5%, rgba(143, 109, 205, 0.33) 91.28%);
+}
+.products-title{
+  margin-bottom: 27px;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  color: #fff;
+}
+.swiper .swiper-pagination-bullet{
+  width: 68px;
+  height: 11px;
+  border-radius: 15px;
+  background-color: #ffffff;
 }
