@@ -45,6 +45,22 @@ img {
   color: #D96E9B;
 }
 
+.button {
+  border: none;
+  background-color: #f8bdda;
+  padding: 21px 41px 22px;
+  border-radius: 9px;
+  width: 399px;
+}
+
+.button__link {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 500;
+
+}
+
 .swiper {
   max-width: 100%;
   min-height: 514px;
@@ -115,24 +131,24 @@ img {
   margin-bottom: 36px;
 }
 
-.header__button-link {
+/* .header__button-link {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   font-weight: 500;
-}
+} */
 
 .header__img {
   transform: translate(98px, -60px);
 }
 
-.header-btn {
+/* .header-btn {
   border: none;
   background-color: #f8bdda;
   padding: 21px 41px 22px;
   border-radius: 9px;
   width: 399px;
-}
+} */
 
 .about {
   margin-bottom: 112px;
@@ -301,7 +317,7 @@ img {
   background-color: #fff;
   border: 1px solid #70719F;
   margin-bottom: 100px;
- 
+
 
 }
 
@@ -350,3 +366,29 @@ img {
   width: 117px;
   height: 44px;
 }
+.application {
+margin-bottom: 106px;
+}
+
+.application__wrepper {
+  display: flex;
+}
+
+.application__img {
+}
+
+.application__img-top {}
+
+.application__img-bot {}
+
+.application__form {}
+
+.title {}
+
+.form__text {}
+
+.application__form-content {}
+
+.form-item {}
+
+.form__subtext {}
