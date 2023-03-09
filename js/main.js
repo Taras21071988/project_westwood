@@ -22,6 +22,7 @@ const swiper = new Swiper(".swiper", {
     sensiviti: 1,
     eventsTarget: ".swiper",
   },
+  
   breakpoints: {
     250: {
       slidesPerView: 1,
