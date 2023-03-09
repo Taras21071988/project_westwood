@@ -17,12 +17,25 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  
 
   mousewheel: {
     sensiviti: 1,
-    eventsTarget: ".swiper"
-  }
+    eventsTarget: ".swiper",
+  },
+  breakpoints: {
+    250: {
+      slidesPerView: 1,
+    },
+    600: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
+    1250: {
+      slidesPerView: 4,
+    },
+  },
 
   // And if we need scrollbar
   // scrollbar: {
